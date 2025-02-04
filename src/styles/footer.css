@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0%;
+  }
+
+  .footer h1{
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+  }
+
+  .footer li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  
+  .footer ul{ 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer ul li{
+    padding: 0 1rem;
+  }
+
+  .footer ul li p{
+    margin-left: 14px;
+  }
+
+  .footer box-icon{
+    width: 3rem;
+  }

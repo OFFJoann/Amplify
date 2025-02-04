@@ -1,0 +1,50 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal_contenido {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .modal_contenido h1 {
+    font-style: italic;
+  }
+
+  .modal_contenido p {
+    font-family: 'Arial Narrow';
+    font-size: medium;
+    font-style: italic;
+  }
+  
+  .cerrar_modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .cerrar_modal:hover {
+    background: darkred;
+  }
+  
