@@ -1,5 +1,6 @@
 
 run the program:
 
-npm install
-npm start
+   ```bash
+   npm install
+   npm start
